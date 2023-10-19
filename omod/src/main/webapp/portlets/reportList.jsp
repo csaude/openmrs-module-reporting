@@ -7,7 +7,7 @@
 		    "bPaginate": true,
 		    "iDisplayLength": ${model.numOnPage},
 		    "bLengthChange": false,
-		    "bFilter": false,
+		    "bFilter": true,
 		    "bInfo": true,
 		    "bAutoWidth": false,
 		    "bSortable": true,
