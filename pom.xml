@@ -4,7 +4,7 @@
 
 	<groupId>org.openmrs.module</groupId>
 	<artifactId>reporting</artifactId>
-	<version>1.25.0</version>
+	<version>1.25.0.csaude</version>
 	<packaging>pom</packaging>
 	<name>Reporting</name>
 	<description>Parent project for Reporting</description>
@@ -20,15 +20,15 @@
 
 	<distributionManagement>
         <repository>
-            <id>openmrs-repo-modules</id>
-            <name>OpenMRS Modules</name>
-            <url>https://openmrs.jfrog.io/artifactory/modules</url>
-        </repository>
-        <snapshotRepository>
-            <id>openmrs-repo-snapshots</id>
-            <name>OpenMRS Snapshots</name>
-            <url>https://openmrs.jfrog.io/artifactory/snapshots</url>
-        </snapshotRepository>
+			<id>github</id>
+			<name>GitHub csaude Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/csaude/openmrs-module-reporting</url>
+		</repository>
+		<snapshotRepository>
+			<id>github</id>
+			<name>GitHub csaude Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/csaude/openmrs-module-reporting</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 	<modules>
